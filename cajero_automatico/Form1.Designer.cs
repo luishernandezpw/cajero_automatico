@@ -28,56 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.btnretirar = new System.Windows.Forms.Button();
+            this.lblcantidad = new System.Windows.Forms.Label();
+            this.txtcantidad = new System.Windows.Forms.TextBox();
+            this.lblrespuesta = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnretirar
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(33, 82);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 50);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "RETIRAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnretirar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnretirar.Location = new System.Drawing.Point(33, 83);
+            this.btnretirar.Name = "btnretirar";
+            this.btnretirar.Size = new System.Drawing.Size(133, 50);
+            this.btnretirar.TabIndex = 0;
+            this.btnretirar.Text = "RETIRAR";
+            this.btnretirar.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lblcantidad
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Cantidad:";
+            this.lblcantidad.AutoSize = true;
+            this.lblcantidad.Location = new System.Drawing.Point(13, 26);
+            this.lblcantidad.Name = "lblcantidad";
+            this.lblcantidad.Size = new System.Drawing.Size(52, 13);
+            this.lblcantidad.TabIndex = 1;
+            this.lblcantidad.Text = "Cantidad:";
             // 
-            // textBox1
+            // txtcantidad
             // 
-            this.textBox1.Location = new System.Drawing.Point(66, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.txtcantidad.Location = new System.Drawing.Point(66, 23);
+            this.txtcantidad.Name = "txtcantidad";
+            this.txtcantidad.Size = new System.Drawing.Size(100, 20);
+            this.txtcantidad.TabIndex = 2;
             // 
-            // label2
+            // lblrespuesta
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(172, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Respuesta: ?";
+            this.lblrespuesta.AutoSize = true;
+            this.lblrespuesta.Location = new System.Drawing.Point(172, 26);
+            this.lblrespuesta.Name = "lblrespuesta";
+            this.lblrespuesta.Size = new System.Drawing.Size(70, 13);
+            this.lblrespuesta.TabIndex = 3;
+            this.lblrespuesta.Text = "Respuesta: ?";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(358, 212);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblrespuesta);
+            this.Controls.Add(this.txtcantidad);
+            this.Controls.Add(this.lblcantidad);
+            this.Controls.Add(this.btnretirar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -90,10 +90,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnretirar;
+        private System.Windows.Forms.Label lblcantidad;
+        private System.Windows.Forms.TextBox txtcantidad;
+        private System.Windows.Forms.Label lblrespuesta;
     }
 }
 

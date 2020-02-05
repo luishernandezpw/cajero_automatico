@@ -43,6 +43,7 @@
             this.btnretirar.TabIndex = 0;
             this.btnretirar.Text = "RETIRAR";
             this.btnretirar.UseVisualStyleBackColor = true;
+            this.btnretirar.Click += new System.EventHandler(this.btnretirar_Click);
             // 
             // lblcantidad
             // 
